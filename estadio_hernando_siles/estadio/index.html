@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estadio Hernando Siles — Inicio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">⚽</div>
+        <span class="nav-logo-text">HERNANDO <span>SILES</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="modelo3d.html">Modelo 3D</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Menú">☰</button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-stripe"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">La Paz, Bolivia · 3,582 m.s.n.m.</p>
+      <h1 class="hero-title">
+        ESTADIO<br>
+        <span class="highlight">HERNANDO</span><br>
+        SILES
+      </h1>
+      <p class="hero-subtitle">El estadio más emblemático de Bolivia</p>
+      <a href="#stats" class="hero-cta">
+        ⚽ Explorar Proyecto
+      </a>
+    </div>
+
+    <div class="hero-scroll">Scroll</div>
+  </section>
+
+  <!-- ===== TARJETAS STATS ===== -->
+  <section class="stats-section" id="stats">
+    <div class="stats-grid">
+
+      <div class="stat-card">
+        <div class="stat-icon">📍</div>
+        <div class="stat-value" data-count="0" data-suffix="">Miraflores</div>
+        <div class="stat-label">Ubicación</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">🏟️</div>
+        <div class="stat-value" data-count="41143" data-suffix="">0</div>
+        <div class="stat-label">Capacidad</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">⛰️</div>
+        <div class="stat-value" data-count="3582" data-suffix=" m">0</div>
+        <div class="stat-label">Altitud s.n.m.</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">🏆</div>
+        <div class="stat-value" data-count="1930" data-suffix="">0</div>
+        <div class="stat-label">Primer estadio</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== IMPORTANCIA ===== -->
+  <section class="importance-section">
+    <div class="importance-inner">
+
+      <div class="importance-img">
+        <img src="/estadio_hernando_siles/estadio/assets/estadio2.jpg" alt="Vista aérea del Estadio Hernando Siles" loading="lazy" />
+        <div class="importance-img-border"></div>
+      </div>
+
+      <div class="importance-text">
+        <p class="section-eyebrow">Orgullo nacional</p>
+        <h2 class="section-title">
+          EL CORAZÓN<br>DEL <span>FÚTBOL</span><br>BOLIVIANO
+        </h2>
+        <p>
+          El Estadio Hernando Siles Reyes es el recinto deportivo de mayor capacidad
+          en Bolivia, con 41,143 espectadores sentados. Ubicado en el barrio de
+          Miraflores, La Paz, es el campo local de los dos clubes más grandes del
+          país: Bolívar y The Strongest.
+        </p>
+        <p>
+          A 3,582 metros sobre el nivel del mar, es uno de los estadios
+          profesionales más altos del mundo. Esta característica lo convierte en
+          una fortaleza para la selección boliviana, que goza de una ventaja
+          natural significativa en los partidos de clasificatorias disputados en su
+          terreno.
+        </p>
+        <ul class="feature-list">
+          <li>Sede oficial de la Selección Boliviana de Fútbol</li>
+          <li>Local de Club Bolívar y Club The Strongest</li>
+          <li>Pista atlética olímpica certificada</li>
+          <li>Remodelado en 2007 con butacas en todo el estadio</li>
+          <li>Diseñado en estilo Neo-Tiahuanacota (primera versión)</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== LEGO CARD ===== -->
+  <section style="padding:5rem 2rem; background:var(--gris-oscuro);">
+    <div style="max-width:900px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:2rem; align-items:center;">
+      <div>
+        <p class="section-eyebrow">Proyecto universitario</p>
+        <h2 class="section-title" style="font-size:clamp(2rem,4vw,3.2rem);">
+          MODELADO <span>3D</span><br>ARQUITECTÓNICO
+        </h2>
+        <p style="color:rgba(255,255,255,0.6); font-size:0.9rem; line-height:1.8; margin-bottom:1.5rem;">
+          Como parte de la materia de <strong style="color:var(--amarillo)">Programación Gráfica</strong>,
+          se desarrolló un modelo tridimensional detallado del estadio que incluye la fachada
+          principal, las graderías, la cancha de fútbol y la pista atlética.
+        </p>
+        <a href="modelo3d.html" class="hero-cta">Ver Modelo 3D →</a>
+      </div>
+      <div style="border-radius:4px; overflow:hidden; border:3px solid var(--amarillo);">
+        <img src="/estadio_hernando_siles/estadio/assets/lego.jpg" alt="Visualización LEGO del estadio" style="width:100%; aspect-ratio:4/5; object-fit:cover;" loading="lazy"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-stripe"></div>
+    <div class="footer-title">HERNANDO <span>SILES</span></div>
+    <div class="footer-sub">Programación Gráfica · Universidad · La Paz, Bolivia</div>
+    <div class="footer-copy">© 2025 · Proyecto académico · Estadio Hernando Siles Reyes · Miraflores, La Paz</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Contadores especiales para stat-cards
+    document.addEventListener('DOMContentLoaded', () => {
+      const staticCards = [
+        { el: document.querySelectorAll('.stat-value')[0], text: 'Miraflores' },
+      ];
+      // La primera tarjeta no es numérica
+      const firstVal = document.querySelectorAll('.stat-value')[0];
+      if (firstVal) {
+        firstVal.removeAttribute('data-count');
+        firstVal.textContent = 'Miraflores';
+      }
+    });
+  </script>
+</body>
+</html>
